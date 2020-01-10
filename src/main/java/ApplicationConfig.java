@@ -29,8 +29,8 @@ import java.util.Properties;
 @Configuration
 @EnableWebMvc
 @EnableTransactionManagement
-@ComponentScan("tranminhduc.pro")
-@EnableJpaRepositories("tranminhduc.pro.repository")
+@ComponentScan("com.codegym")
+@EnableJpaRepositories("com.codegym.repository")
 public class ApplicationConfig extends WebMvcConfigurerAdapter implements ApplicationContextAware {
 
     private ApplicationContext applicationContext;
